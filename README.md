@@ -1,5 +1,4 @@
-# BLACKPEARL
-It is a project of restaurant management system.
-Front End by HTML CSS JAVASCRIPT JQUERY ANIMATION AND BOOTSTRAP
-for BACK-END
- https://github.com/sourav9124/BLACKPEARL-BACKEND/
+# BLACKPEARL-BACKEND
+black pearl  is a restaurant management system which uses backend technologies like 
+
+https://github.com/rakeshkumarsingh1019/BLACKPEARL
