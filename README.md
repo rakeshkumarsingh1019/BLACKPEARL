@@ -1,4 +1,4 @@
 # BLACKPEARL-BACKEND
-black pearl  is a restaurant management system which uses backend technologies like 
+black pearl  is a restaurant management system. used backend technologies are PHP,AJAX,MYSQL 
 
-https://github.com/rakeshkumarsingh1019/BLACKPEARL
+
