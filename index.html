@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BLACK-PEARL</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+   <link rel="stylesheet" href="/maps/documentation/javascript/cgc/demos.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	 
+        <script src="jquery-1.10.2.min.js"></script>
+        <meta charset="utf-8">
+        
+</head>
+<body   onload="myfun()"    >
+  <div id="loading"></div>
+  <div id="loading1">Food is not just eating energy. It's an experience.</div>
+  <div id="loading2">Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.</div>
+
+
+
+
+
+
+	<div id="wrapper">
+		<header>
+			<div class="Container" >
+				<div id="logo">BLACK PEARL</div>
+				<nav>
+					
+					 <button style="z-index: 1;" id="navTopButton">MAKE A RESERVATION</button>
+
+                    <div style="z-index: 0;"  class="container" onmouseover="myFunction(this)" onmouseout="norFunction(this)" onclick="openNav()" >
+                        <div class="bar1"></div>
+                         <div class="bar2"></div>
+                         <div class="bar3"></div>
+                     </div>
+                     <!-- ===============amimated slide float nav=============================== -->
+	
+
+	                               <div id="mySidenav" class="sidenav">
+                                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                   <a href="#">HOME</a>
+                                   <a href="#">MENU</a>
+                                   <a href="#">ABOUT</a>
+                                   <a href="#">NEWS</a>
+                                   <a href="#">FUNCTIONS</a>
+                                   <a href="#">BOOKS</a>
+                                   <a href="#">CAREERS</a>
+                                   <a href="#">Contact</a>
+                                   <button id="navButton">MAKE A RESERVATION</button>
+                                    </div>
+                </nav>
+			</div>
+
+
+
+		</header>
+    <div id="headImg">
+
+      <img src="headimg.jpg">
+       
+      
+    </div>
+    <h1 id="headB" class="animated bounceInLeft">BLACK PEARL</h1>
+    <p id="headP"  class="animated bounceInRight">A INDIAN RESTAURANT WITH A FLARE FOR FINE DINING</p>
+    <div class="box">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+
+
+    <div id="navBar" class="animated rollIn">
+      
+<ul>
+  <li><a href="#">HOME</a></li>
+  <li><a href="#">MENU</a></li>
+  <li><a href="#">ABOUT</a></li>
+  <li><a href="#">NEWS</a></li>
+  <li><a href="#">FUNCTIONS</a></li>
+  <li><a href="#">BOOKS</a></li>
+  <li><a href="#">CONTACTS</a></li>
+  <!-- <li style="float:right"><a class="active" href="#about">About</a></li> -->
+</ul>
+    </div>
+
+<div id="quote">
+  <p id="p1">Our goal <span>is to</span> create food <span>that</span> restores,</p>
+  <p id="p2"> replenishes, <span>and</span> revives.</p>
+</div>    
+     <div id="ourStory">
+     <h2>Ambassadors of <br> Hospitality</h2>
+     <button>ABOUT US</button>
+
+ </div>
+
+
+ <div id="menu">
+  <div id="menu-img">
+    <img src="images/menuimg.jpg">
+  </div>
+  <div id="menu-text"> 
+    <h2 class="menu-textH">OUR MENU IS NEVER <br>
+    DONE</h2>
+    <p class="menu-textP">Every dish at Black pearl has it's own story from the traditional recipes direct from Lebanon, to modern updates that tell the history of our team, of our cooks and chefs who have left their mark on our kitchen, and our serving staff and managers who have been ambassadors of hospitality. Our menu is never done - we find inspiration all around, in new ingredients, new approaches, and fresh takes on old standards.
+    </p>
+    <button class="menu-textB">VIEW MENUS</button>
+  </div>
+
+
+   
+ </div>
+
+
+
+ <div id="event">
+  
+  <div  id="event-text"> 
+    <h2 class="event-textH">HOST YOUR NEXT  <br>
+    EVENT</h2>
+    <p class="event-textP">Black pearl specializes in Private Parties, Corporate and Press Events, Weddings and other celebrations for groups from 5 to 500. We feature four private event spaces perfect for any occasion, as well as the option to book the entire restaurant. Menus range from passed hors d'oeuvres and cocktails to our diverse shared menus for seated dinners.
+
+
+    </p>
+    <button class="event-textB">LEARN MORE</button>
+  </div>
+  <div id="event-img">
+    <img  src="images/event.jpg">
+  </div>
+
+
+   
+ </div>
+
+ <div id="catring">
+  <div id="catring-img">
+    <img src="images/catring.jpg">
+  </div>
+  <div id="catring-text"> 
+    <h2 class="catring-textH">CATERING TO YOU</h2>
+    <p class="catring-textP">Whether you are looking for a special lunch to reward your team for its hard work, or to impress an important client with a perfect dinner in your home, Black pearl can cater events from 5 to 500 guests.
+    </p>
+    <button class="catring-textB">BOOK NOW</button>
+  </div>
+</div>
+
+
+
+<div id="reservation">
+  <img  id="first" src="images/p3.jpg">
+  <img id="secound" src="images/front4.jpg">
+  <img id="third" src="images/pro4.jpg">
+   <img id="fourth" src="images/pro1.jpg">  
+</div>
+
+
+<div id="reservation">
+  <img  id="first" src="images/home-men.jpg">
+  <img id="secound" src="images/front8.jpg">
+  <img id="third" src="images/front6.jpg">
+   <img id="fourth" src="images/front16.jpg">  
+</div>
+
+<div id="black">
+  
+</div>
+<div id="reservation-img-text">
+  <h1>RESERVATIONS</h1>
+  <div id="find-a-table">
+    <p>MAKE A RESERVATION HERE</p>
+    <button>FIND A TABLE</button>
+  </div>
+  <h2>PLEASE NOTE</h2>
+  <p1>For reservations of 1-6 people, we invite you to use the Open Table link<br> above or call us at 040-66272727. All reservations will be held for 15<br> minutes after the reserved time. After 15 minutes, we can no longer guarantee <br>your reservation but will do our best to accommodate your party.</p1><br><br><br>
+  <p2>The full menu is served in the dining room and the bar until 10 pm Sunday <br>through Wednesday and until 11 pm Thursday through Saturday. </p2>
+  <br><br><br>
+  <p3>For reservations for parties of 7 or more, please contact us via telephone<br> 040-64272727 or email us at info@blackpearl.com to inquire about availability.<br> We request that parties of 7 or more participate in our tasting menu.</p3>
+  <br><br><br>
+  <p4>For all other inquiries, please telephone or e-mail us. We will do our best to<br> return your message within 24 hours. We look forward to seeing you at The<br> Black pearl! </p4>
+  <h3>PRIVATE DINING</h3>
+  <p5>The Black pearl is available to reserve as a private dining space for up to 32<br> people. Our space is filled with rich wood and vintage finishes throughout,<br> exposed brick walls and a bar area. For cocktail parties, we can accommodate<br> up to 50 people. Please contact us for pricing and additional information at<br> info@blackpearl.com.</p5>
+
+
+</div>
+
+<div id="reservation1">
+  <img  id="first1" src="images/q4.jpg">
+  <img id="secound1" src="images/q9.jpg">
+  <img id="third1" src="images/q3.jpg">
+   <img id="fourth1" src="images/q11.jpg">  
+</div>
+
+
+<div id="reservation1">
+  <img  id="first1" src="images/q8.jpg">
+  <img id="secound1" src="images/qqq.jpg">
+  <img id="third1" src="images/res.jpg">
+   <img id="fourth1" src="images/q10.jpg">  
+</div>
+
+
+
+
+
+
+
+
+<div id="last">
+  <div id="last-address">
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+   <h2>LOVELY PROFESSIONAL UNIVERSITY</h2><br>
+   <p1> Punjab-Jalandhar</p1><br><br>
+   <p2> Phagwara</p2><br><br>
+   <p3>144411</p3><br><br>
+   <p4>040-64272727</p4><br><br>
+   <p5>info@blackpearl.com</p5><br><br>
+   <h2>KITCHEN HOURS</h2><br>
+   <p6>Sunday-Wednesday: 5:30pm-10pm</p6><br><br>
+   <p7>Thursday-Saturday: 5:30pm-11pm</p7><br><br>
+   <h2>BAR HOURS</h2><br>
+   <p8>Sunday-Wednesday: 5:30pm-12am</p8><br><br>
+   <p9>Thursday-Saturday: 5:30pm-1am</p9><br><br>
+   <h2>MEDIA INQUIRIES</h2><br>
+   <p10>blackpearl@gmail.com</p10>
+
+
+    
+  </div>
+  <div id="last-contact">
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h2>CONTACT US</h2>
+    <br>
+    <label>Name&nbsp;*</label>
+    <br><br>
+    <input class="name" type="text" name="">
+    <input class="name" type="text" name="">
+    <br>
+    <span>First Name</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Last Name</span><br><br>
+    <label>Email Address&nbsp;*</label><br><br>
+    <input id="emailText" type="email" name=""><br><br>
+    <label>Subject&nbsp;*</label><br><br> 
+    <input id="subjectText" type="text" name=""><br><br>
+     <label>Message&nbsp;*</label><br><br>
+     <!-- <input id="messageText" type="text" name=""> -->
+     <textarea id="messageText"></textarea>
+     <br><br>
+
+     <button id="submitButton" >SUBMIT</button><br><br><br><br>
+     <h2 style="font-size:30px;">Subscribe</h2>
+     <p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sign up with your email address to receive news and updates a few times per year. </p1><br><br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="em" type="email" placeholder="Email Address" name="">&nbsp;&nbsp;&nbsp;<button id="but">SIGH UP</button><br><br>
+     <p2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We respect your privacy.  Your info will never be shared.</p2>
+  </div>
+
+</div>
+
+<div id="googleMap">
+  <div id="map">
+    
+  </div>
+</div>
+
+<div class="footer">
+ <div id="socialmediaicon"><br> 
+      <ul>
+        &nbsp;
+        
+          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+
+<div id="navBar1" >
+      
+<ul>
+  <li><a href="#">HOME</a></li>
+  <li><a href="#">MENU</a></li>
+  <li><a href="#">ABOUT</a></li>
+  <li><a href="#">NEWS</a></li>
+  <li><a href="#">FUNCTIONS</a></li>
+  <li><a href="#">BOOKS</a></li>
+  <li><a href="#">CONTACTS</a></li>
+  <!-- <li style="float:right"><a class="active" href="#about">About</a></li> -->
+</ul>
+    </div>
+</div>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+ 
+
+
+        
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script type="text/javascript">
+  var preloader = document.getElementById("loading");
+  var preloader1=document.getElementById("loading1");
+  var preloader2= document.getElementById("loading2");
+  function myfun(){
+      preloader.style.display='none'
+      ;
+      preloader1.style.display='none';
+      preloader2.style.display='none';
+    }
+
+</script>
+
+
+
+
+
+ <script>
+          function initMap() {
+        var myLatLng = {lat: 31.250012399999996, lng: 75.6976561};
+
+        // Create a map object and specify the DOM element
+        // for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          zoom: 12
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: myLatLng,
+          title: 'BLACK PEARL!'
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWuv5160vZF8Js1CDLuSkQLqX83LNBOxg&callback=initMap"
+        async defer></script>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script>
+// ===================jquery nav sticky============
+    $(document).on('scroll',function(){
+    	if($(this).scrollTop()>1){
+    		$('header').addClass('sticky');
+    	} else{
+    		$('header').removeClass('sticky');
+
+    	}
+    });
+ 	// ===========three line icon===========
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+function norFunction(x) {
+  x.classList.toggle("noChange");
+}
+  // ========================animated slide nav==================
+	  function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      var positiontop =$(document).scrollTop();
+    
+      console.log(positiontop);
+
+      if((positiontop >5)&&(positiontop<213)){
+        $('#headB').addClass('animated bounceInLeft');
+      }
+      if((positiontop >10)&&(positiontop<213)){
+        $('#headP').addClass('animated bounceInRight');
+      }
+    });
+
+  });
+</script>
+
+ 
+
+</body>
+</html>
